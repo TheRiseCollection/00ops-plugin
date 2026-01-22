@@ -14,6 +14,8 @@ Have you ever typed a shell command with CAPS LOCK on? You get an error because 
 npm install -g 00ps
 ```
 
+**Note**: The package is published as `00ps` (unscoped) on npm.
+
 ## Usage
 
 ```bash
