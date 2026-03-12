@@ -1,14 +1,14 @@
 {
   "name": "00ps",
   "version": "0.1.0",
-  "description": "A CLI utility that allows shell commands typed in CAPS LOCK to execute correctly by normalizing casing",
+  "description": "A CLI utility that allows shell commands typed in CAPS LOCK to execute correctly by normalizing casing.",
   "main": "bin/00ps.js",
   "bin": {
     "00ps": "bin/00ps.js"
   },
   "scripts": {
     "start": "node bin/00ps.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node bin/00ps.js --help || node bin/00ps.js -h"
   },
   "keywords": [
     "cli",
@@ -16,7 +16,11 @@
     "caps-lock",
     "normalize",
     "command",
-    "ergonomics"
+    "ergonomics",
+    "cli-tool",
+    "developer-experience",
+    "capslock",
+    "productivity"
   ],
   "author": "THE RISE COLLECTION",
   "license": "MIT",
@@ -26,5 +30,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheRiseCollection/00ops-plugin.git"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/TheRiseCollection/00ops-plugin/issues"
+  },
+  "homepage": "https://github.com/TheRiseCollection/00ops-plugin#readme"
 }
